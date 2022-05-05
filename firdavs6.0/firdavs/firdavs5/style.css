@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 1900px;
+    height: 940px;
+    border: 1px solid red;
+    margin: auto;
+    background-image: url(https://myblog.uz/wp-content/uploads/2020/08/9467e39e7be40e6ee1ac88d3cc962a35-1024x682.jpg);
+    background-size: cover;
+}
+
+
+.box1{
+    text-align: center;
+    margin-top: 300px;
+    color: yellow;
+    font-family: 'Corinthia', cursive;
+    font-size: 30px;
+}

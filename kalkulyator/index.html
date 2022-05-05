@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+        margin: 0 auto;
+        background-image: url(./Без\ названия.jpg);
+        background-size: cover;
+    }
+
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: black;
+        color: gold;
+        font-size: 50px;
+    }
+
+    label{
+        color: gold;
+        margin-left: 600px;
+        font-size: 50px;
+    }
+
+    input{
+        width: 400px;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        font-size:30px;
+        padding: 5px 20px;
+        /* margin-left: 500px; */
+    }
+
+    .btn{
+        margin-left: 730px;  
+        background-color: gold;
+        font-size: 30px;
+    }
+
+    select{
+        width: 400px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 20px;
+        margin-left: 15px;
+        padding: 5px 20px;
+    }
+
+</style>
+        <body>
+            <form action="">
+            <label for="num">1-sonni kiriting</label> 
+            <input type="text" id="son-a"> <br> <br>                
+            <label for="num1">amalni kiriting</label>
+            <select name="" id="son">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            
+            <br> <br>
+            <label for="num2">3-sonni kiriting</label>
+
+            <input type="text" id="son-c"> <br> <br>
+            <input type="button" class="btn" value="Hisoblash" onclick="hisob()">
+            </form>
+            <h1 id="matn"></h1>
+            <script src="./main.js"></script>
+        </body>
+        </html>
